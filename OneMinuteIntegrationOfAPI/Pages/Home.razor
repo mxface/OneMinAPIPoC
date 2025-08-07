@@ -1,0 +1,149 @@
+﻿@page "/"
+<PageTitle>Home</PageTitle>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Sidebar Navigation -->
+        <div class="col-md-2">
+            <div class="step-sidebar">
+                <div class="step-nav-item @(step == 1 ? "active" : "")">1</div>
+                <div class="step-nav-item @(step == 2 ? "active" : "")">2</div>
+                <div class="step-nav-item @(step == 3 ? "active" : "")">3</div>
+                <div class="step-nav-item @(step == 4 ? "active" : "")">4</div>
+                <div class="step-nav-item @(step == 5 ? "active" : "")">5</div>
+            </div>
+        </div>
+
+        <div class="col-md-10">
+            <!-- Step 1 -->
+            <div class="mb-4">
+                @* <h5 class="step-number">1</h5> *@
+                <h4 class="mb-1">Choose a platform</h4>
+                <p class="text-muted">To start, pick a preferred platform. Either can be used later.</p>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-md-3 col-6">
+                    <div class="platform-box @(selectedPlatform == "Web" ? "selected" : "")" @onclick="@(() => SelectPlatform("Web"))">
+                        <i class="bi bi-laptop fs-1 mb-2"></i>
+                        <div class="platform-label">Web</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="platform-box @(selectedPlatform == "Mobile" ? "selected" : "")" @onclick="@(() => SelectPlatform("Mobile"))">
+                        <i class="bi bi-phone fs-1 mb-2"></i>
+                        <div class="platform-label">Mobile</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="mb-4 mt-5">
+                @* <h5 class="step-number">2</h5> *@
+                <h4 class="mb-1">Choose your framework</h4>
+                <p class="text-muted">You can always install on another platform later.</p>
+            </div>
+
+            <div class="row g-3">
+                @foreach (var item in frameworks)
+                {
+                    <div class="col-md-2 col-6">
+                        <div class="framework-box @(selectedFramework == item.Name ? "selected" : "")" @onclick="@(() => SelectFramework(item.Name))">
+                            <div class="framework-icon">@item.Icon</div>
+                            <div class="framework-label">@item.Name</div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Step 3 -->
+            <div class="mt-5">
+                @* <h5 class="step-number">3</h5> *@
+                <h4 class="mb-3 d-inline-block">Integrate with JavaScript</h4>
+                <a class="btn btn-outline-secondary btn-sm float-end" href="#">
+                    <i class="bi bi-box-arrow-up-right"></i> Open docs
+                </a>
+                <p class="mt-2 mb-3">Add our snippet to each page you want to use Fingerprint on. You can import the script directly from a CDN or include it as an <a href="#" class="text-danger">NPM package</a>.</p>
+
+                <ul class="nav nav-tabs" id="integrationTabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#cdnTab">CDN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#npmTab">NPM</a>
+                    </li>
+                </ul>
+                <div class="tab-content border rounded-bottom p-3 bg-light">
+                    <div class="tab-pane fade show active" id="cdnTab">
+                        <pre class="code-snippet mt-3"><code>
+                        &lt;script&gt;
+                        // Initialize the agent on page load.
+                        const fpPromise = import('https://fpjscdn.net/v3/a2y0HrQDHooMZunuELyN')
+                          .then(FingerprintJS =&gt; FingerprintJS.load({
+                            region: "ap"
+                          }));
+
+                        // Get the visitorId when you need it.
+                        fpPromise
+                          .then(fp =&gt; fp.get())
+                          .then(result =&gt; {
+                            const visitorId = result.visitorId;
+                            console.log(visitorId);
+                          });
+                        &lt;/script&gt;
+                        </code></pre>
+                        <p class="mt-3">Read our <a href="#" class="text-danger">documentation</a> for more information.</p>
+                    </div>
+                    <div class="tab-pane fade" id="npmTab">
+                        <p class="text-muted">Coming soon or add code here later.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="mt-5 mb-4">
+                @* <h5 class="step-number">4</h5> *@
+                <h4 class="mb-1">Send request</h4>
+                <p class="text-muted">Open the page where you installed Fingerprint and wait a second, the script automatically runs on page load.</p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="mt-5 mb-4">
+                @* <h5 class="step-number">5</h5> *@
+                <h4 class="mb-1">Verify installation</h4>
+                <p class="text-muted">Let's make sure the script is working as expected.</p>
+                <button class="btn btn-warning">Check installation</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    int step = 1;
+    string selectedPlatform = "Web";
+    string selectedFramework = "JavaScript";
+
+    record FrameworkOption(string Name, MarkupString Icon);
+
+    FrameworkOption[] frameworks = new[]
+    {
+        new FrameworkOption("JavaScript", new MarkupString("<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' class='fw-img' alt='JavaScript' />")),
+        new FrameworkOption("Python", new MarkupString("<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' class='fw-img' alt='Python' />")),
+        new FrameworkOption("C#", new MarkupString("<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg' class='fw-img' alt='C#' />")),
+        new FrameworkOption("React", new MarkupString("<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' class='fw-img' alt='React' />")),
+        new FrameworkOption("Angular", new MarkupString("<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg' class='fw-img' alt='Angular' />")),
+    };
+
+
+    void SelectPlatform(string platform)
+    {
+        selectedPlatform = platform;
+    }
+
+    void SelectFramework(string framework)
+    {
+        selectedFramework = framework;
+    }
+
+}

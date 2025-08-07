@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+HaqbnkplEc=",
+  "success": true,
+  "projectFilePath": "G:\\Work\\Projects\\MxFace\\Apps\\One Minute Integration\\FingerprintDetectionC#\\FingerprintDetectionAPI\\FingerprintDetectionAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aayush.Thakkar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

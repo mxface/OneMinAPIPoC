@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FingerprintDetectionAPI": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
