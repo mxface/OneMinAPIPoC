@@ -1,0 +1,113 @@
+﻿.step-sidebar {
+    position: relative;
+    padding: 0 32px
+}
+
+    .step-sidebar .step-nav-item {
+        position: relative;
+    }
+
+        .step-sidebar .step-nav-item::before {
+            content: "";
+            height: 100%;
+            width: 1px;
+            background-color: #ff5d22;
+            position: absolute;
+            z-index: -1;
+            left: -13px;
+            right: 0;
+        }
+
+
+.step-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.step-nav-item {
+    position: relative;
+    padding: 15px 0;
+    /*    display: flex;
+    align-items: flex-start;*/
+}
+
+/*.step-nav .step-nav-item:nth-of-type(4)::before {
+    content: none;
+}*/
+
+.step-number {
+    position: absolute;
+    left: -28px;
+    /*top: 15px;*/
+    display: inline-block;
+    background-color: #ff5d22;
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+}
+
+.step-nav-item.active .step-number {
+    background-color: #ff5d22;
+    color: white;
+}
+
+.step-content {
+    padding-left: 32px;
+}
+
+    .step-content .nav-tabs {
+        border-bottom: 0;
+    }
+
+        .step-content .nav-tabs .nav-link {
+            color: #666;
+            border: 0;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 500;
+        }
+
+            .step-content .nav-tabs .nav-link:hover,
+            .step-content .nav-tabs .nav-link:focus {
+                color: #f35820 !important;
+            }
+
+            .step-content .nav-tabs .nav-link.active {
+                border-bottom: 2px solid #ff5d22 !important;
+                color: #f35820 !important;
+            }
+
+.btn_orange {
+    border-radius: 4px;
+    background-color: #ff5d22;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+    .btn_orange:hover {
+        color: #fff;
+        background-color: #e95521;
+    }
+
+.text-sm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-link-orange {
+    color: #f35820;
+    text-decoration: none;
+}
+
+    .text-link-orange:hover {
+        color: #e95521;
+        text-decoration: underline;
+    }
