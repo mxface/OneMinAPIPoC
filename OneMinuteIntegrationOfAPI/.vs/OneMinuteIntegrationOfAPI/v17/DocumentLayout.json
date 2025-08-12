@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54596ED1-36E8-46E1-86A4-3F7F59C00920}|OneMinuteIntegrationOfAPI.csproj|e:\\mxface-ai\\oneminapipoc\\oneminuteintegrationofapi\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -47,8 +47,7 @@
               "ViewState": "AgIAAG8AAAAAAAAAAAAqwIwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-08-06T06:06:15.02Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -56,26 +55,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "home.css",
               "DocumentMoniker": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
               "ToolTip": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\wwwroot\\css\\home.css",
               "RelativeToolTip": "wwwroot\\css\\home.css",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-08-08T05:06:52.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
               "ToolTip": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-06T10:43:48.005Z",
               "EditorCaption": ""
@@ -94,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
               "ToolTip": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\Pages\\Home.razor",
               "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAWwHwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-06T06:06:03.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-06T06:04:52.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T06:04:52.752Z"
             }
           ]
         }

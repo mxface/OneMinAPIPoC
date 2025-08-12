@@ -2073,6 +2073,6 @@ E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\refint\OneM
 E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\OneMinuteIntegrationOfAPI.pdb
 E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\ref\OneMinuteIntegrationOfAPI.dll
 E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\compressed\9ptsofde1t-0i1t82ohxn.gz
-E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\compressed\jva2k6woy0-kcjj8qywp7.gz
-E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\compressed\dwakwfzjho-pg52wyecai.gz
+E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\compressed\9ptsofde1t-6ah0ln24id.gz
+E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\compressed\jva2k6woy0-e4lad303td.gz
+E:\MxFace-AI\OneMinAPIPoC\OneMinuteIntegrationOfAPI\obj\Debug\net8.0\compressed\dwakwfzjho-ud2pookfor.gz

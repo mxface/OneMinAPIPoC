@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "OneMinuteIntegrationOfAPI",
   "resources": {
-    "hash": "sha256-eQuVDtdPk6IIYJHoGrZ/vfC3SJjGBaeX3pJ61busxrU=",
+    "hash": "sha256-xkf7WGCwxfqAmcQy1Cjuh1V03tKlubzCv8cNsgzhmEw=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-UnQd0YPXNpwbXsKqO8RAqgUVuwZsSpprfAIPpdV/y1Q=",
       "netstandard.wasm": "sha256-/QbD8JDZyYwfyk89W3qJL3HTAINDCVziZIySHIZcDhw=",
       "System.Private.CoreLib.wasm": "sha256-oBqNgH7R24FqGbaL3XnfQDqn3rk28jERFosgAryKT6U=",
-      "OneMinuteIntegrationOfAPI.wasm": "sha256-2LwvroKCpswdH5HqG9nXxn94ZMTyEADbTj62dd4vtYY="
+      "OneMinuteIntegrationOfAPI.wasm": "sha256-fmiMdMWRoTsa6nRh8NseGHBMva6GeTzU+7awhLN3TtM="
     },
     "pdb": {
-      "OneMinuteIntegrationOfAPI.pdb": "sha256-TEfDgIjS8bKuXzuDoZutSCjpkDWlpHsdNvXNnnRt9H8="
+      "OneMinuteIntegrationOfAPI.pdb": "sha256-kp0Pm8y8p9D0VGpJz0k0mOLOjPFGTaf1p8Nu/EMA4VU="
     }
   },
   "cacheBootResources": true,

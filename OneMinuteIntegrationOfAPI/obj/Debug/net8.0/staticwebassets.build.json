@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QNph4GxZ7WM0q8XZLLeChJLj2VujrG1AhrUkchXBd7Q=",
+  "Hash": "NsRR7FrXtfrxznWNxqo3GW9YxZdUPO/l5v3PyEkFbeQ=",
   "Source": "OneMinuteIntegrationOfAPI",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "pg52wyecai",
-      "Integrity": "KVBPiTR+hvg3lvZzbaCFq1Io22bdrxnHLCjdQFtnhyg=",
+      "Fingerprint": "ud2pookfor",
+      "Integrity": "rq+g48KCbBm2WpPtFazaR5udhESjU8cXtv/cfiQR+Aw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "kcjj8qywp7",
-      "Integrity": "TEfDgIjS8bKuXzuDoZutSCjpkDWlpHsdNvXNnnRt9H8=",
+      "Fingerprint": "e4lad303td",
+      "Integrity": "kp0Pm8y8p9D0VGpJz0k0mOLOjPFGTaf1p8Nu/EMA4VU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\OneMinuteIntegrationOfAPI.pdb"
@@ -913,8 +913,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "0i1t82ohxn",
-      "Integrity": "2LwvroKCpswdH5HqG9nXxn94ZMTyEADbTj62dd4vtYY=",
+      "Fingerprint": "6ah0ln24id",
+      "Integrity": "fmiMdMWRoTsa6nRh8NseGHBMva6GeTzU+7awhLN3TtM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\webcil\\OneMinuteIntegrationOfAPI.wasm"
@@ -5540,7 +5540,7 @@
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.wasm"
     },
     {
-      "Identity": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\9ptsofde1t-0i1t82ohxn.gz",
+      "Identity": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\9ptsofde1t-6ah0ln24id.gz",
       "SourceId": "OneMinuteIntegrationOfAPI",
       "SourceType": "Computed",
       "ContentRoot": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\",
@@ -5554,8 +5554,8 @@
       "RelatedAsset": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\OneMinuteIntegrationOfAPI.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cvn29gklvp",
-      "Integrity": "qLFRxhWY+pDKO4PVws4k6iB9qfYIaMHBqZrncPwLTls=",
+      "Fingerprint": "nsp0btk3nk",
+      "Integrity": "lwF+WJrFeZhEuwqIpZ2V/ns7nlTwL4qAn5SajBeAyIo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\OneMinuteIntegrationOfAPI.wasm"
@@ -6023,7 +6023,7 @@
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.ThreadPool.wasm"
     },
     {
-      "Identity": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\dwakwfzjho-pg52wyecai.gz",
+      "Identity": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\dwakwfzjho-ud2pookfor.gz",
       "SourceId": "OneMinuteIntegrationOfAPI",
       "SourceType": "Computed",
       "ContentRoot": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\",
@@ -6037,8 +6037,8 @@
       "RelatedAsset": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "w3dfpxsccl",
-      "Integrity": "HI0LL76/eJlF8TIW0JWRdarmIu3vj9XDZbQ0pJ3CJms=",
+      "Fingerprint": "w6rjhb0s5v",
+      "Integrity": "mDJpIyJAa3GeslAZp1JRWK1fiU72dvtWTBqhaR64b1s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6758,7 +6758,7 @@
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Concurrent.wasm"
     },
     {
-      "Identity": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\jva2k6woy0-kcjj8qywp7.gz",
+      "Identity": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\jva2k6woy0-e4lad303td.gz",
       "SourceId": "OneMinuteIntegrationOfAPI",
       "SourceType": "Computed",
       "ContentRoot": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\",
@@ -6772,8 +6772,8 @@
       "RelatedAsset": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\OneMinuteIntegrationOfAPI.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2asgc9c4wr",
-      "Integrity": "KgPJrDDGoEUJmlH40wGgHA05srgaBFtsYxs4H8rnowk=",
+      "Fingerprint": "vazz3fbsj3",
+      "Integrity": "iTO23aTJJCevGXCjtq1Oq24IOylKK0O0jUFQWLa+QiE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\OneMinuteIntegrationOfAPI.pdb"
@@ -8746,8 +8746,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "50z3awyz6j",
-      "Integrity": "C4Jz97AeOuy1XkmU2yUc+EXfjKjfA/YJLXTDFcvNhXw=",
+      "Fingerprint": "gnb5d6pbvq",
+      "Integrity": "xODCWPU+mieRi0zo7CagP/Wc3smlPA9i2/JkMRvIJTo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
@@ -8920,11 +8920,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KVBPiTR+hvg3lvZzbaCFq1Io22bdrxnHLCjdQFtnhyg=\""
+          "Value": "\"rq+g48KCbBm2WpPtFazaR5udhESjU8cXtv/cfiQR+Aw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 12:06:03 GMT"
+          "Value": "Tue, 12 Aug 2025 05:01:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8934,18 +8934,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KVBPiTR+hvg3lvZzbaCFq1Io22bdrxnHLCjdQFtnhyg="
+          "Value": "sha256-rq+g48KCbBm2WpPtFazaR5udhESjU8cXtv/cfiQR+Aw="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\dwakwfzjho-pg52wyecai.gz",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\dwakwfzjho-ud2pookfor.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000112892301"
+          "Quality": "0.000112943302"
         }
       ],
       "ResponseHeaders": [
@@ -8955,15 +8955,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8857"
+          "Value": "8853"
         },
         {
           "Name": "ETag",
-          "Value": "\"HI0LL76/eJlF8TIW0JWRdarmIu3vj9XDZbQ0pJ3CJms=\""
+          "Value": "\"mDJpIyJAa3GeslAZp1JRWK1fiU72dvtWTBqhaR64b1s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 10:27:08 GMT"
+          "Value": "Tue, 12 Aug 2025 04:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8983,19 +8983,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KVBPiTR+hvg3lvZzbaCFq1Io22bdrxnHLCjdQFtnhyg=\""
+          "Value": "W/\"rq+g48KCbBm2WpPtFazaR5udhESjU8cXtv/cfiQR+Aw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KVBPiTR+hvg3lvZzbaCFq1Io22bdrxnHLCjdQFtnhyg="
+          "Value": "sha256-rq+g48KCbBm2WpPtFazaR5udhESjU8cXtv/cfiQR+Aw="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\dwakwfzjho-pg52wyecai.gz",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\dwakwfzjho-ud2pookfor.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9004,7 +9004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8857"
+          "Value": "8853"
         },
         {
           "Name": "Content-Type",
@@ -9012,11 +9012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HI0LL76/eJlF8TIW0JWRdarmIu3vj9XDZbQ0pJ3CJms=\""
+          "Value": "\"mDJpIyJAa3GeslAZp1JRWK1fiU72dvtWTBqhaR64b1s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 10:27:08 GMT"
+          "Value": "Tue, 12 Aug 2025 04:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9034,7 +9034,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HI0LL76/eJlF8TIW0JWRdarmIu3vj9XDZbQ0pJ3CJms="
+          "Value": "sha256-mDJpIyJAa3GeslAZp1JRWK1fiU72dvtWTBqhaR64b1s="
         }
       ]
     },
@@ -14529,7 +14529,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25688"
+          "Value": "25680"
         },
         {
           "Name": "Content-Type",
@@ -14537,11 +14537,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TEfDgIjS8bKuXzuDoZutSCjpkDWlpHsdNvXNnnRt9H8=\""
+          "Value": "\"kp0Pm8y8p9D0VGpJz0k0mOLOjPFGTaf1p8Nu/EMA4VU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 12:06:03 GMT"
+          "Value": "Tue, 12 Aug 2025 05:01:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14551,18 +14551,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TEfDgIjS8bKuXzuDoZutSCjpkDWlpHsdNvXNnnRt9H8="
+          "Value": "sha256-kp0Pm8y8p9D0VGpJz0k0mOLOjPFGTaf1p8Nu/EMA4VU="
         }
       ]
     },
     {
       "Route": "_framework/OneMinuteIntegrationOfAPI.pdb",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\jva2k6woy0-kcjj8qywp7.gz",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\jva2k6woy0-e4lad303td.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000053166038"
+          "Quality": "0.000053188660"
         }
       ],
       "ResponseHeaders": [
@@ -14572,15 +14572,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18808"
+          "Value": "18800"
         },
         {
           "Name": "ETag",
-          "Value": "\"KgPJrDDGoEUJmlH40wGgHA05srgaBFtsYxs4H8rnowk=\""
+          "Value": "\"iTO23aTJJCevGXCjtq1Oq24IOylKK0O0jUFQWLa+QiE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 10:27:08 GMT"
+          "Value": "Tue, 12 Aug 2025 04:45:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14600,19 +14600,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TEfDgIjS8bKuXzuDoZutSCjpkDWlpHsdNvXNnnRt9H8=\""
+          "Value": "W/\"kp0Pm8y8p9D0VGpJz0k0mOLOjPFGTaf1p8Nu/EMA4VU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TEfDgIjS8bKuXzuDoZutSCjpkDWlpHsdNvXNnnRt9H8="
+          "Value": "sha256-kp0Pm8y8p9D0VGpJz0k0mOLOjPFGTaf1p8Nu/EMA4VU="
         }
       ]
     },
     {
       "Route": "_framework/OneMinuteIntegrationOfAPI.pdb.gz",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\jva2k6woy0-kcjj8qywp7.gz",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\jva2k6woy0-e4lad303td.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14621,7 +14621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18808"
+          "Value": "18800"
         },
         {
           "Name": "Content-Type",
@@ -14629,11 +14629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KgPJrDDGoEUJmlH40wGgHA05srgaBFtsYxs4H8rnowk=\""
+          "Value": "\"iTO23aTJJCevGXCjtq1Oq24IOylKK0O0jUFQWLa+QiE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 10:27:08 GMT"
+          "Value": "Tue, 12 Aug 2025 04:45:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14651,7 +14651,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KgPJrDDGoEUJmlH40wGgHA05srgaBFtsYxs4H8rnowk="
+          "Value": "sha256-iTO23aTJJCevGXCjtq1Oq24IOylKK0O0jUFQWLa+QiE="
         }
       ]
     },
@@ -14674,11 +14674,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2LwvroKCpswdH5HqG9nXxn94ZMTyEADbTj62dd4vtYY=\""
+          "Value": "\"fmiMdMWRoTsa6nRh8NseGHBMva6GeTzU+7awhLN3TtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 12:06:03 GMT"
+          "Value": "Tue, 12 Aug 2025 05:01:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14688,18 +14688,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2LwvroKCpswdH5HqG9nXxn94ZMTyEADbTj62dd4vtYY="
+          "Value": "sha256-fmiMdMWRoTsa6nRh8NseGHBMva6GeTzU+7awhLN3TtM="
         }
       ]
     },
     {
       "Route": "_framework/OneMinuteIntegrationOfAPI.wasm",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\9ptsofde1t-0i1t82ohxn.gz",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\9ptsofde1t-6ah0ln24id.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000095739588"
+          "Quality": "0.000095803794"
         }
       ],
       "ResponseHeaders": [
@@ -14709,15 +14709,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10444"
+          "Value": "10437"
         },
         {
           "Name": "ETag",
-          "Value": "\"qLFRxhWY+pDKO4PVws4k6iB9qfYIaMHBqZrncPwLTls=\""
+          "Value": "\"lwF+WJrFeZhEuwqIpZ2V/ns7nlTwL4qAn5SajBeAyIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 10:27:08 GMT"
+          "Value": "Tue, 12 Aug 2025 04:45:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14737,19 +14737,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2LwvroKCpswdH5HqG9nXxn94ZMTyEADbTj62dd4vtYY=\""
+          "Value": "W/\"fmiMdMWRoTsa6nRh8NseGHBMva6GeTzU+7awhLN3TtM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2LwvroKCpswdH5HqG9nXxn94ZMTyEADbTj62dd4vtYY="
+          "Value": "sha256-fmiMdMWRoTsa6nRh8NseGHBMva6GeTzU+7awhLN3TtM="
         }
       ]
     },
     {
       "Route": "_framework/OneMinuteIntegrationOfAPI.wasm.gz",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\9ptsofde1t-0i1t82ohxn.gz",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\obj\\Debug\\net8.0\\compressed\\9ptsofde1t-6ah0ln24id.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14758,7 +14758,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10444"
+          "Value": "10437"
         },
         {
           "Name": "Content-Type",
@@ -14766,11 +14766,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qLFRxhWY+pDKO4PVws4k6iB9qfYIaMHBqZrncPwLTls=\""
+          "Value": "\"lwF+WJrFeZhEuwqIpZ2V/ns7nlTwL4qAn5SajBeAyIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 10:27:08 GMT"
+          "Value": "Tue, 12 Aug 2025 04:45:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14788,7 +14788,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qLFRxhWY+pDKO4PVws4k6iB9qfYIaMHBqZrncPwLTls="
+          "Value": "sha256-lwF+WJrFeZhEuwqIpZ2V/ns7nlTwL4qAn5SajBeAyIo="
         }
       ]
     },
@@ -37233,51 +37233,6 @@
       ]
     },
     {
-      "Route": "css/home.50z3awyz6j.css",
-      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\wwwroot\\css\\home.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2535"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C4Jz97AeOuy1XkmU2yUc+EXfjKjfA/YJLXTDFcvNhXw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 11:10:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "50z3awyz6j"
-        },
-        {
-          "Name": "label",
-          "Value": "css/home.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-C4Jz97AeOuy1XkmU2yUc+EXfjKjfA/YJLXTDFcvNhXw="
-        }
-      ]
-    },
-    {
       "Route": "css/home.css",
       "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\wwwroot\\css\\home.css",
       "Selectors": [],
@@ -37288,7 +37243,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2535"
+          "Value": "2306"
         },
         {
           "Name": "Content-Type",
@@ -37296,11 +37251,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C4Jz97AeOuy1XkmU2yUc+EXfjKjfA/YJLXTDFcvNhXw=\""
+          "Value": "\"xODCWPU+mieRi0zo7CagP/Wc3smlPA9i2/JkMRvIJTo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 11:10:16 GMT"
+          "Value": "Tue, 12 Aug 2025 05:00:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37310,7 +37265,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-C4Jz97AeOuy1XkmU2yUc+EXfjKjfA/YJLXTDFcvNhXw="
+          "Value": "sha256-xODCWPU+mieRi0zo7CagP/Wc3smlPA9i2/JkMRvIJTo="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.gnb5d6pbvq.css",
+      "AssetFile": "E:\\MxFace-AI\\OneMinAPIPoC\\OneMinuteIntegrationOfAPI\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xODCWPU+mieRi0zo7CagP/Wc3smlPA9i2/JkMRvIJTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 05:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gnb5d6pbvq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xODCWPU+mieRi0zo7CagP/Wc3smlPA9i2/JkMRvIJTo="
         }
       ]
     },
