@@ -1,3 +1,4 @@
+@import "home.css";
 html,
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -127,7 +128,7 @@ code {
 
 .code-snippet {
     background: #f8f9fa;
-    border: 1px solid #ddd;
+/*    border: 1px solid #ddd;*/
     padding: 1rem;
     border-radius: 6px;
     font-family: monospace;
@@ -141,7 +142,7 @@ code {
     color: #f56c6c !important;
 }
 
-.step-number {
+/*.step-number {
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -153,12 +154,12 @@ code {
     border-radius: 50%;
     margin-right: 8px;
     font-size: 0.9rem;
-}
+}*/
 
 /* UNIFIED Platform and Framework Box Styles - This ensures both look identical */
 .platform-box,
 .framework-box {
-    border: 2px solid #e5e7eb;
+    border: 2px solid #e0e0e0;
     border-radius: 12px;
     text-align: center;
     cursor: pointer;
@@ -175,13 +176,14 @@ code {
 
     .platform-box:hover,
     .framework-box:hover {
-        border-color: #f56c6c;
+        border-color: #ff5d22;
+        background-color: #fef1ec;
     }
 
     .platform-box.selected,
     .framework-box.selected {
-        border-color: #f56c6c;
-        background-color: #fff5f5;
+        border-color: #ff5d22;
+        background-color: #fef1ec;
     }
 
 /* Labels for both platform and framework boxes */
@@ -254,7 +256,7 @@ code {
             background: none;
         }
 
-.code-snippet {
+/*.code-snippet {
     background-color: #f8f9fa;
     border: 1px solid #ddd;
     border-radius: 6px;
@@ -264,7 +266,7 @@ code {
     font-size: 0.875rem;
     line-height: 1.4;
     color: #212529;
-}
+}*/
 
 .check-install-btn {
     background-color: #f56c6c;
@@ -280,7 +282,7 @@ code {
         background-color: #e04c4c;
     }
 
-.step-sidebar {
+/*.step-sidebar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -288,9 +290,9 @@ code {
     gap: 20px;
     position: sticky;
     top: 80px;
-}
+}*/
 
-.step-nav-item {
+/*.step-nav-item {
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -306,7 +308,7 @@ code {
     .step-nav-item.active {
         background-color: #f56c6c;
         color: white;
-    }
+    }*/
 
 /* Reduce padding inside snippet tab */
 .tab-content {

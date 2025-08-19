@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OneMinuteIntegrationOfAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93bb192310a4a81d0810429e348981a567d2c411")]
 [assembly: System.Reflection.AssemblyProductAttribute("OneMinuteIntegrationOfAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OneMinuteIntegrationOfAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
