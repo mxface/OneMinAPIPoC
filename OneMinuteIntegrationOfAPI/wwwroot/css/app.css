@@ -165,26 +165,45 @@ code {
     cursor: pointer;
     transition: all 0.3s ease;
     background-color: #fff;
-    height: 140px;
+    /* Fixed dimensions to prevent resizing */
+    height: 110px;
     width: 100%;
+    max-width: 180px; /* Add max-width for consistency */
+    min-width: 140px;  /* Add min-width to prevent shrinking */
     padding: 20px 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* Prevent content overflow */
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in dimensions */
 }
 
-    .platform-box:hover,
-    .framework-box:hover {
-        border-color: #ff5d22;
-        background-color: #fef1ec;
-    }
+.platform-box:hover,
+.framework-box:hover {
+    border-color: #ff5d22;
+    background-color: #fef1ec;
+}
+.f_setting{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+        width: 100%;
+    height: 100%;
+}
+.platform-box .selected,
+.framework-box .selected {
+    border-color: #ff5d22;
+    background-color: #fef1ec;
+        width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ff5d22;
+    
+}
 
-    .platform-box.selected,
-    .framework-box.selected {
-        border-color: #ff5d22;
-        background-color: #fef1ec;
-    }
 
 /* Labels for both platform and framework boxes */
 .platform-label,
@@ -193,10 +212,20 @@ code {
     font-size: 0.9rem;
     color: #f56c6c;
     margin-top: 8px;
+    /* Prevent text from affecting box size */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .framework-icon {
     font-size: 20px;
+    /* Fixed height for icon container */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fw-icon.js-icon {
@@ -214,6 +243,8 @@ code {
     height: 36px;
     object-fit: contain;
     margin-bottom: 6px;
+    /* Ensure consistent sizing */
+    flex-shrink: 0;
 }
 
 .step-3-heading {
