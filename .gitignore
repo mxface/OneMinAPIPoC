@@ -1,4 +1,16 @@
-.vs
+# IDE
+.vs/
 .vscode/
-/bin
-/obj
+
+# .NET build output (any depth)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Static web assets caches
+**/wwwroot/_framework/
+staticwebassets.pack.sentinel
+
+# Node
+node_modules/
