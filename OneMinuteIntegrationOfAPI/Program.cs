@@ -3,19 +3,13 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using OneMinuteIntegrationOfAPI;
 using OneMinuteIntegrationOfAPI.Interfaces;
 using OneMinuteIntegrationOfAPI.Services;
-using Microsoft.Extensions.Configuration;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-builder.Services.AddScoped(sp => new HttpClient
-{
-    BaseAddress = new Uri(builder.Configuration["MxFace:ApiBaseUrl"] ?? builder.HostEnvironment.BaseAddress),
-});
-
-// Allow services to access configuration values
-builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+// Configure HttpClient with CORS headers
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
 builder.Services.AddScoped<ICommonService, CommonService>();
 builder.Services.AddScoped<IServiceUsageHistoryService, ServiceUsageHistoryService>();

@@ -6,7 +6,6 @@
 @using OneMinuteIntegrationOfAPI.Interfaces
 @inject IJSRuntime JSRuntime
 @inject HttpClient Http
-@inject IConfiguration Configuration
 @inject IServiceUsageHistoryService UsageService
 
 <PageTitle>Home</PageTitle>
@@ -108,7 +107,7 @@
                                     Replace <code>YOUR_SUBSCRIPTION_KEY</code> with your actual MXFace.ai subscription key.
                                 </p>
                                 <p class="text-sm">
-                                    Need help? Check out our <a href="#" class="text-link-orange">detailed documentation</a>.
+                                    Need help? Check out our detailed documentation at <a href="mxface.ai" class="text-link-orange">mxface.ai</a>.
                                 </p>
                             </div>
                         </div>
@@ -120,7 +119,25 @@
                     <div class="step-content">
                         <div class="mb-4">
                             <h4 class="mb-1">Send request</h4>
-                            <p class="text-muted">Open the page where you installed Fingerprint and wait a second, the script automatically runs on page load.</p>
+                            <div class="command-container">
+                                @{
+                                    var command = selectedLanguage switch
+                                    {
+                                        "Python" => "python main.py",
+                                        "JavaScript" => "node app.js",
+                                        "C#" => "dotnet run",
+                                        _ => ""
+                                    };
+                                }
+                                <div class="command-box">
+                                    <span class="command-prompt">$</span>
+                                    <code class="command-text">@command</code>
+                                    <button class="command-copy" @onclick="@(() => CopyCommand(command))" title="Copy command">
+                                        <i class="bi @(isCommandCopied ? "bi-check2" : "bi-clipboard")"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-3">The Face Detection API will process your image and return detected faces with quality scores.</p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +172,7 @@
                                 @if (checkPerformed && installationCheckResult is not null)
                                 {
                                     <div class="d-flex flex-column gap-2">
-                                        @if (installationCheckResult.RemainingUsage < installationCheckResult.TotalUsage)
+                                        @if (installationCheckResult.afterCount < installationCheckResult.beforeCount)
                                         {
                                             <span class="badge badge-success-check d-inline-flex align-items-center" style="color: green">
                                                 <i class="bi bi-check2 me-1"></i>
@@ -172,7 +189,7 @@
                                         <div class="mt-2">
                                             <p class="text-sm text-muted mb-0">
                                                 <strong>@installationCheckResult.PackageName</strong> — Remaining calls:
-                                                <strong>@installationCheckResult.RemainingUsage</strong> / Total: <strong>@installationCheckResult.TotalUsage</strong>
+                                                <strong>@installationCheckResult.afterCount</strong> / Total: <strong>@installationCheckResult.TotalUsage</strong>
                                             </p>
                                         </div>
                                     </div>
@@ -216,11 +233,15 @@
     InstallationCheckResult? installationCheckResult;
     string errorMessage = "";
     bool isDownloaded;
+    private bool isCommandCopied;
 
     string? apiBase;
     string? bearerToken;
     string facePackageName = "Face API Free";
     int initialQuota = 100;
+
+    private int apiCount = 0;
+    private int? initialRemainingUsage = null;
 
     record FrameworkOption(string Name, MarkupString Icon);
 
@@ -235,29 +256,30 @@
     {
         try
         {
-            // Load initial usage data silently without showing any message
             var usage = await UsageService.GetClientUsage();
+            
+            // Store the initial remaining usage when the page first loads
+            initialRemainingUsage ??= usage.remainingUsage;
+
             installationCheckResult = new InstallationCheckResult
             {
                 IsSuccessful = usage.remainingUsage < usage.totalUsage,
                 PackageName = usage.packageName ?? "Face API Free",
-                RemainingUsage = usage.remainingUsage,
+                beforeCount = initialRemainingUsage.Value,
+                afterCount = usage.remainingUsage,
                 TotalUsage = usage.totalUsage
             };
-            // Don't set any error message here
-            errorMessage = ""; // Clear any existing error message
+            errorMessage = ""; 
             checkPerformed = false;
         }
         catch (Exception ex)
         {
-            // Just log the error, don't show to user
             Console.Error.WriteLine($"Error loading initial usage data: {ex.Message}");
         }
 
-        // Load code samples
-        jsCode = await SafeGet("code/FingerprintDetectionJavascript/app.js", "// JavaScript code file not found");
-        pyCode = await SafeGet("code/FingerprintDetectionPython/main.py", "# Python code file not found");
-        csCode = await SafeGet("code/FingerprintDetectionCSharp/Program.cs", "// C# code file not found");
+        jsCode = await SafeGet("/code/FingerprintDetectionJavascript/app.js", "// JavaScript code file not found");
+        pyCode = await SafeGet("/code/FingerprintDetectionPython/main.py", "# Python code file not found");
+        csCode = await SafeGet("/code/FingerprintDetectionCSharp/Program.cs", "// C# code file not found");
 
         selectedLanguage = "JavaScript";
         SetCurrentCode();
@@ -287,8 +309,15 @@
 
     async Task<string> SafeGet(string url, string fallback)
     {
-        try { return await Http.GetStringAsync(url); }
-        catch { return fallback; }
+        try { 
+            var result = await Http.GetStringAsync(url);
+            Console.WriteLine($"Successfully loaded: {url}");
+            return result;
+        }
+        catch (Exception ex) { 
+            Console.Error.WriteLine($"Failed to load {url}: {ex.Message}");
+            return fallback; 
+        }
     }
 
     async Task CopyToClipboard()
@@ -321,30 +350,23 @@
     async Task CheckInstallation()
     {
         isCheckingInstallation = true;
-        errorMessage = ""; // Clear any previous message
+        errorMessage = ""; 
         checkPerformed = false;
         StateHasChanged();
 
         try
         {
             var usage = await UsageService.GetClientUsage();
+
             installationCheckResult = new InstallationCheckResult
             {
                 IsSuccessful = usage.remainingUsage < usage.totalUsage,
                 PackageName = usage.packageName ?? "Face API Free",
-                RemainingUsage = usage.remainingUsage,
+                beforeCount = initialRemainingUsage ?? usage.remainingUsage,
+                afterCount = usage.remainingUsage,
                 TotalUsage = usage.totalUsage
             };
 
-            // Show message only when Check Installation is clicked
-            // if (installationCheckResult.RemainingUsage < installationCheckResult.TotalUsage)
-            // {
-            //     errorMessage = $"Successfully connected! You are using {installationCheckResult.PackageName} package.";
-            // }
-            // else
-            // {
-            //     errorMessage = "Please start using this API in your application.";
-            // }
             checkPerformed = true;
         }
         catch (Exception ex)
@@ -358,12 +380,30 @@
             StateHasChanged();
         }
     }
+    private async Task CopyCommand(string command)
+    {
+        try
+        {
+            await JSRuntime.InvokeVoidAsync("navigator.clipboard.writeText", command);
+            isCommandCopied = true;
+            StateHasChanged();
+            await Task.Delay(2000);
+            isCommandCopied = false;
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Failed to copy command: {ex.Message}");
+        }
+    }
+
 
     public class InstallationCheckResult
     {
         public bool IsSuccessful { get; set; }
         public string PackageName { get; set; } = "";
-        public int RemainingUsage { get; set; }
+        public int beforeCount { get; set; }
+        public int afterCount { get; set; }
         public int TotalUsage { get; set; }
     }
 
@@ -376,9 +416,9 @@
 
     string CurrentFileUrl => selectedLanguage switch
     {
-        "Python" => "code/FingerprintDetectionPython/main.py",
-        "C#" => "code/FingerprintDetectionCSharp/Program.cs",
-        _ => "code/FingerprintDetectionJavascript/app.js"
+        "Python" => "./code/FingerprintDetectionPython/main.py",
+        "C#" => "./code/FingerprintDetectionCSharp/Program.cs",
+        _ => "./code/FingerprintDetectionJavascript/app.js"
     };
 
     string LanguageCssClass => selectedLanguage switch
