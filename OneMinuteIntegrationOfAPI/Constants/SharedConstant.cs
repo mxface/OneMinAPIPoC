@@ -1,0 +1,9 @@
+namespace OneMinuteIntegrationOfAPI.Constants
+{
+    public static class SharedConstant
+    {
+        public const string API_BASE_URL = "https://api.mxface.ai";
+        public const string BEARER_TOKEN =
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ijg5NyIsInJvbGUiOiJBZG1pbiIsImNsYWltUm9sZSI6IkFkbWluIiwiY2xhaW1DbGllbnRJZCI6Ijg5NyIsIm5iZiI6MTc1NzA3NzU1NiwiZXhwIjoxODIwMTQ5NTU2LCJpYXQiOjE3NTcwNzc1NTZ9.A7C_BOgz2OrlnB2kRmg7HW7iKJfh_YJnioTscz2y7G0";
+    }
+}

@@ -79,19 +79,19 @@
                             </p>
 
                             <div class="code-container">
-                                <div class="code-actions">
+                                <div class="code-actions me-3">
                                     <button @onclick="CopyToClipboard"
                                             class="action-button"
                                             title="Copy to clipboard"
                                             disabled="@(isCopying)">
-                                        <i class="bi @(isCopied ? "bi-check2" : "bi-clipboard") me-1"></i>
+                                        <i class="bi @(isCopied ? "bi-check2" : "bi-clipboard") "></i>
                                     </button>
 
 
                                     <button @onclick="DownloadCurrentCode"
                                             class="action-button @(isDownloaded ? "downloaded" : "")"
                                             title="Download file">
-                                        <i class="bi @(isDownloaded ? "bi-check2" : "bi-download") me-1"></i>
+                                        <i class="bi @(isDownloaded ? "bi-check2" : "bi-download") "></i>
                                     </button>
                                 </div>
 
@@ -211,7 +211,6 @@
     </div>
 
     <div class="col-md-10">
-        <!-- (Your other steps content kept as-is) -->
         <div class="mb-4"></div>
     </div>
 </div>
